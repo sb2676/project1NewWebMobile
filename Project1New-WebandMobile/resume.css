@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0; 
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: rgb(244, 244, 244);
+      color: #333;
+  }
+  
+  header {
+      position: fixed;
+      width: 100%;
+      background-color: rgb(255,242,231);
+  }
+  
+  .navbar {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      
+  }
+  
+  .title {
+      font-size: 1.8em;
+      color: rgb(152, 112, 112);
+      text-align: center;
+      margin: auto;
+      padding-left: 280px;
+  }
+  
+  .nav-links {
+      display:flex ;
+      gap: 30px; 
+  }
+  
+  .nav-links a {
+      text-decoration: none;
+      color: rgb(152, 112, 112);
+  }
+  
+  .nav-links a:hover {
+      color: rgb(219, 181, 181);
+  }
+  
+  .container {
+      max-width: 800px;
+      margin: 80px auto 0; 
+      background: #ffffff;
+      padding: 30px; 
+      border-radius: 8px;
+  }
+  
+  h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: darkblue;
+      text-align: center;
+  }
+  
+  .name {
+      font-family: 'Brush Script MT', cursive;
+      text-align: center;
+      color: darkblue;
+  }
+  
+  h2 {
+      font-size: 1.8em;
+      color: #333;
+      margin-bottom: 15px;
+      border-bottom: 2px solid darkblue;
+      padding-bottom: 5px;
+      text-align: center;
+  }
+  
+  .job {
+      color: darkblue;
+  }
+  
+  h3 {
+      font-size: 1.5em;
+      color: #333;
+      margin: 10px 0 5px;
+  }
+  
+  h4 {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 10px;
+  }
+  
+  ol {
+      margin-bottom: 50px;
+  }
+  
+  ul {
+      margin-left: 20px;
+  }
+  
+  p {
+      margin-bottom: 10px;
+  }
+  
+  hr {
+      border: 1px solid darkblue;
+      margin: 20px 0;
+  }
+  
+  .footer {
+      margin-top: 20px;
+      font-size: 1em;
+      text-align: center;
+      color: #777;
+  }
+  
+  .button {
+      margin: 10px;
+    
+  }
+  
+  .button-wrapper {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0; 
+  }
+  
+  
+  .download-button:hover {
+      background-color: rgb(255,242,231); 
+  }

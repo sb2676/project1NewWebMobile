@@ -1,0 +1,138 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  #Myimg{
+    border: 10px solid rgb(152, 112, 112); 
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+  }
+
+.lalalalalalal{
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    margin-right: 50px;
+}
+figcaption {
+    font-size: 12px;
+    color: rgb(152, 112, 112); 
+    text-align: center;
+    margin-top: 0px;
+}
+
+  body {
+      margin: 0;
+      padding: 0; 
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: rgb(244, 244, 244);
+      color: #333;
+  }
+  header {
+/* position bottom and position top on 38*/
+    width: 100%;
+    background-color: rgb(255,242,231);
+}
+footer{
+    font-family: sans-serif;
+    display: flex;
+ 
+    width: 100%;
+    height: 110px;
+    background-color: rgb(255,242,231);
+    align-items: center; 
+    margin-top: 250px;
+}
+.footer{
+
+    color: rgb(152, 112, 112); 
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.title {
+    font-size: 1.8em;
+    color: rgb(152, 112, 112);
+    text-align: center;
+    margin: auto;
+    padding-left: 450px;
+}
+
+.nav-links {
+    display:flex ;
+    gap: 30px; 
+    margin-left: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(152, 112, 112);
+}
+
+.nav-links a:hover {
+    color: rgb(219, 181, 181);
+}
+
+#RIT{
+    width: 300px;
+    height: 300px;
+}
+
+
+#JM{
+    width: 300px;
+    height: 300px;
+}
+
+#Bulldog{
+    width: 300px;
+    height: 300px;
+}
+h4{
+    color: black;
+}
+#Owl{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px; 
+    align-items: center;
+}
+
+#Hill{
+    width: 300px;
+    height: 300px;
+}
+
+.cont{
+    display: flex;
+    
+}
+#para{
+    font-size: 20px;
+    margin: 130px;
+    color: rgb(152, 112, 112); 
+    text-align: center;
+    margin-bottom: 180px;
+    background-color: rgb(255,242,231);
+
+}
+#Education{
+    margin-left: 350px;
+}
+.school{
+    margin-top: 50px;
+}
